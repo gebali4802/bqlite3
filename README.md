@@ -27,3 +27,7 @@ bqlite.selectOne("database.db", "user", {"name":"gebali4802"}, "fetchone") # dat
 bqlite.selectMany("database.db", "user", "fetchall") # database.db파일에서 user을 fetchall메소드로 조사한다.
 # 오류가 있으면 False를 리턴한다. 오류가 없으면 결과를 리턴한다.
 ```
+
+# Precautions
+* BQLite3로 조사할때 주의할점
+* 메소드를 `fetchone`이나 `fetchall`으로 작성해야합니다.

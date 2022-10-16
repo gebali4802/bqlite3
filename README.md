@@ -56,3 +56,5 @@ bqlite.selectOne("database.db", "user", {"name":"gebali4802"}, "fetchone") # dat
 bqlite.selectMany("database.db", "user", "fetchall") # database.db파일에서 user을 fetchall메소드로 조사한다.
 # 오류가 있으면 False를 리턴한다. 오류가 없으면 결과를 리턴한다.
 ```
+
+###### 대놓고 heist332님의 Fast-Sqlite3를 참고했습니다.

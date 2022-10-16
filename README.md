@@ -31,6 +31,9 @@ bqlite.selectMany("database.db", "user", "fetchall") # database.db파일에서 u
 # Precautions
 * BQLite3로 조사할때 주의할점
 * 메소드를 `fetchone`이나 `fetchall`으로 작성해야합니다.
+* 아래의 코드는 `SQLite3`로 작성한 파일이 있을때의 예시입니다.
+* 만약에 없다면 파일을 `SQLite3`로 생성하세요.
+* 오류가 있다면 `CR9#5759`으로 연락주세요.
 
 # Code
 ```py

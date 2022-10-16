@@ -1,6 +1,6 @@
 # BQLite3
 * Better SQLite3
-* BQLite3는 SQLite3의 개선판
+* 파이썬의 SQLite3의 개선판입니다.
 
 # How To USE
 * 저장
